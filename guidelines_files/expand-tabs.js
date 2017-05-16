@@ -1,16 +1,3 @@
-/*
- * Copyright (c) 2015-2016 Pixware SARL. All rights reserved.
- * 
- * Author: Hussein Shafie
- * 
- * This file is part of the XMLmind W2X project.
- * For conditions of distribution and use, see the accompanying legal.txt file.
- *
- * Gives a width to all span class=role-tab. 
- * This code is invoked by the web browser at the end of 
- * the document loading process.
- */
-
 function w2x_expandTabs() {
     var paras = document.getElementsByTagName("P"); // HTML.
     if (paras.length === 0) {
